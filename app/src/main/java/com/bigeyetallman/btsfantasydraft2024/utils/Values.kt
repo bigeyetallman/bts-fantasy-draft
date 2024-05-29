@@ -113,7 +113,7 @@ class Values {
         "문상철" to Player(id = 69, "문상철", PLAYER_TYPE_HITTER, "KT", TAEMIN_SHINEES),
         "이재현" to Player(id = 70, "이재현", PLAYER_TYPE_HITTER, "삼성", DONGJIN_UNIVERSE),
         "강백호" to Player(id = 71, "강백호", PLAYER_TYPE_HITTER, "KT", JUHYUNG_DONGHEEMOMS),
-        "박병호" to Player(id = 72, "박병호", PLAYER_TYPE_HITTER, "KT", DONGYUN_MRS)
+        "박병호" to Player(id = 72, "박병호", PLAYER_TYPE_HITTER, "삼성", DONGYUN_MRS)
     )
 
     var pitcherPlayerMap = mutableMapOf<String, Player>(
