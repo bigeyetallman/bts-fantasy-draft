@@ -11,8 +11,8 @@ android {
         applicationId = "com.bigeyetallman.btsfantasydraft2024"
         minSdk = 24
         targetSdk = 33
-        versionCode = 1
-        versionName = "1.01.02"
+        versionCode = 6
+        versionName = "1.02.02"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
