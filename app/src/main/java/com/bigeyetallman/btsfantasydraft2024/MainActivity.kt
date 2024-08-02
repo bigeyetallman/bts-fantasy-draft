@@ -1,5 +1,6 @@
 package com.bigeyetallman.btsfantasydraft2024
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -7,6 +8,7 @@ import android.os.Looper
 import android.util.Log
 import android.view.View
 import android.view.View.OnClickListener
+import androidx.annotation.RequiresApi
 import com.bigeyetallman.btsfantasydraft2024.databinding.ActivityMainBinding
 import com.bigeyetallman.btsfantasydraft2024.list.MainUserChartListViewAdapter
 import com.bigeyetallman.btsfantasydraft2024.list.UserChartItem
@@ -15,6 +17,7 @@ import com.bigeyetallman.btsfantasydraft2024.utils.Urls
 import com.bigeyetallman.btsfantasydraft2024.utils.Utils
 import com.bigeyetallman.btsfantasydraft2024.utils.Values
 import org.jsoup.Jsoup
+import java.time.LocalDate
 import java.util.LinkedList
 
 class MainActivity : AppCompatActivity(), OnClickListener{
@@ -40,6 +43,7 @@ class MainActivity : AppCompatActivity(), OnClickListener{
     private var mainUserChartListViewAdapter: MainUserChartListViewAdapter? = null
     private lateinit var headerUserChartListView: View
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -47,6 +51,8 @@ class MainActivity : AppCompatActivity(), OnClickListener{
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.textViewDay.text = LocalDate.now().toString()
 
         loadingDialog =
             Utils.getCustomProgressDialog(this, getString(R.string.loading_progress_message))!!
