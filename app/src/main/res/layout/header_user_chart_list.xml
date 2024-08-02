@@ -30,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:text="@string/ranking"
+                android:fontFamily="@font/font_galmuri"
                 android:textColor="@color/black"
                 android:textSize="15dp"
                 android:textStyle="bold" />
@@ -50,6 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:text="@string/name"
+                android:fontFamily="@font/font_galmuri"
                 android:textColor="@color/black"
                 android:textSize="15dp"
                 android:textStyle="bold" />
@@ -71,6 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:text="@string/total_point"
+                android:fontFamily="@font/font_galmuri"
                 android:textColor="@color/black"
                 android:textSize="15dp"
                 android:textStyle="bold" />
@@ -91,6 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:text="@string/score_difference"
+                android:fontFamily="@font/font_galmuri"
                 android:textColor="@color/black"
                 android:textSize="15dp"
                 android:textStyle="bold" />
