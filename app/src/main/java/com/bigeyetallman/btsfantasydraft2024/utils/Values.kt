@@ -193,14 +193,14 @@ class Values {
 
     //이전 점수 여기에 추가
     var userTotalPointMap = mutableMapOf<Int, Double>(
-        SUNGJIN_INSTAZ to 9511.49,
+        SUNGJIN_INSTAZ to 9512.39,
         ISAAC_TOASTERZ to 7995.76,
-        YEJIN_PRINCESS to 6937.66,
-        DAEHYUN_SPIDERS to 7620.17,
-        TAEMIN_SHINEES to 8726.90,
+        YEJIN_PRINCESS to 6937.96,
+        DAEHYUN_SPIDERS to 7625.17,
+        TAEMIN_SHINEES to 8725.5,
         DONGJIN_UNIVERSE to 7061.48,
         JUHYUNG_DONGHEEMOMS to 11795.32,
-        DONGYUN_MRS to 7462.02,
+        DONGYUN_MRS to 7457.02,
     )
 
 }
