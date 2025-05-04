@@ -11,7 +11,7 @@ class Urls {
 
         fun getHitterUrl(page: Int): String {
             val hitterUrl =
-                "http://www.welcometopranking.com/baseball/?p=chart&searchType=MONTHLY&searchDate=&position&position=T&team=&page=1&orderBy=&orderSort="
+                "https://www.welcometopranking.com/baseball/?p=chart&searchType=MONTHLY&searchDate=Y2025M05&position=T&team=&page=1&orderBy=&orderSort="
             return "$hitterUrl&page=$page"
         }
     }
